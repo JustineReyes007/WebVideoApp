@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D14DB97724ED7B0D00BA5040 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14DB97624ED7B0D00BA5040 /* AppDelegate.swift */; };
+		D14DB97924ED7B0D00BA5040 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14DB97824ED7B0D00BA5040 /* SceneDelegate.swift */; };
+		D14DB97B24ED7B0D00BA5040 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14DB97A24ED7B0D00BA5040 /* ViewController.swift */; };
+		D14DB97E24ED7B0D00BA5040 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D14DB97C24ED7B0D00BA5040 /* Main.storyboard */; };
+		D14DB98124ED7B0D00BA5040 /* WebVideoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D14DB97F24ED7B0D00BA5040 /* WebVideoApp.xcdatamodeld */; };
+		D14DB98324ED7B1100BA5040 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D14DB98224ED7B1100BA5040 /* Assets.xcassets */; };
+		D14DB98624ED7B1100BA5040 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D14DB98424ED7B1100BA5040 /* LaunchScreen.storyboard */; };
+		D14DB99124ED7B1100BA5040 /* WebVideoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14DB99024ED7B1100BA5040 /* WebVideoAppTests.swift */; };
+		D14DB99C24ED7B1100BA5040 /* WebVideoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14DB99B24ED7B1100BA5040 /* WebVideoAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D14DB98D24ED7B1100BA5040 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D14DB96B24ED7B0D00BA5040 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D14DB97224ED7B0D00BA5040;
+			remoteInfo = WebVideoApp;
+		};
+		D14DB99824ED7B1100BA5040 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D14DB96B24ED7B0D00BA5040 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D14DB97224ED7B0D00BA5040;
+			remoteInfo = WebVideoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D14DB97324ED7B0D00BA5040 /* WebVideoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebVideoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D14DB97624ED7B0D00BA5040 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D14DB97824ED7B0D00BA5040 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D14DB97A24ED7B0D00BA5040 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D14DB97D24ED7B0D00BA5040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D14DB98024ED7B0D00BA5040 /* WebVideoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WebVideoApp.xcdatamodel; sourceTree = "<group>"; };
+		D14DB98224ED7B1100BA5040 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D14DB98524ED7B1100BA5040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D14DB98724ED7B1100BA5040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D14DB98C24ED7B1100BA5040 /* WebVideoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebVideoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D14DB99024ED7B1100BA5040 /* WebVideoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebVideoAppTests.swift; sourceTree = "<group>"; };
+		D14DB99224ED7B1100BA5040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D14DB99724ED7B1100BA5040 /* WebVideoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebVideoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D14DB99B24ED7B1100BA5040 /* WebVideoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebVideoAppUITests.swift; sourceTree = "<group>"; };
+		D14DB99D24ED7B1100BA5040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D14DB97024ED7B0D00BA5040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D14DB98924ED7B1100BA5040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D14DB99424ED7B1100BA5040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D14DB96A24ED7B0D00BA5040 = {
+			isa = PBXGroup;
+			children = (
+				D14DB97524ED7B0D00BA5040 /* WebVideoApp */,
+				D14DB98F24ED7B1100BA5040 /* WebVideoAppTests */,
+				D14DB99A24ED7B1100BA5040 /* WebVideoAppUITests */,
+				D14DB97424ED7B0D00BA5040 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D14DB97424ED7B0D00BA5040 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D14DB97324ED7B0D00BA5040 /* WebVideoApp.app */,
+				D14DB98C24ED7B1100BA5040 /* WebVideoAppTests.xctest */,
+				D14DB99724ED7B1100BA5040 /* WebVideoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D14DB97524ED7B0D00BA5040 /* WebVideoApp */ = {
+			isa = PBXGroup;
+			children = (
+				D14DB97624ED7B0D00BA5040 /* AppDelegate.swift */,
+				D14DB97824ED7B0D00BA5040 /* SceneDelegate.swift */,
+				D14DB97A24ED7B0D00BA5040 /* ViewController.swift */,
+				D14DB97C24ED7B0D00BA5040 /* Main.storyboard */,
+				D14DB98224ED7B1100BA5040 /* Assets.xcassets */,
+				D14DB98424ED7B1100BA5040 /* LaunchScreen.storyboard */,
+				D14DB98724ED7B1100BA5040 /* Info.plist */,
+				D14DB97F24ED7B0D00BA5040 /* WebVideoApp.xcdatamodeld */,
+			);
+			path = WebVideoApp;
+			sourceTree = "<group>";
+		};
+		D14DB98F24ED7B1100BA5040 /* WebVideoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D14DB99024ED7B1100BA5040 /* WebVideoAppTests.swift */,
+				D14DB99224ED7B1100BA5040 /* Info.plist */,
+			);
+			path = WebVideoAppTests;
+			sourceTree = "<group>";
+		};
+		D14DB99A24ED7B1100BA5040 /* WebVideoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D14DB99B24ED7B1100BA5040 /* WebVideoAppUITests.swift */,
+				D14DB99D24ED7B1100BA5040 /* Info.plist */,
+			);
+			path = WebVideoAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D14DB97224ED7B0D00BA5040 /* WebVideoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D14DB9A024ED7B1100BA5040 /* Build configuration list for PBXNativeTarget "WebVideoApp" */;
+			buildPhases = (
+				D14DB96F24ED7B0D00BA5040 /* Sources */,
+				D14DB97024ED7B0D00BA5040 /* Frameworks */,
+				D14DB97124ED7B0D00BA5040 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebVideoApp;
+			productName = WebVideoApp;
+			productReference = D14DB97324ED7B0D00BA5040 /* WebVideoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D14DB98B24ED7B1100BA5040 /* WebVideoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D14DB9A324ED7B1100BA5040 /* Build configuration list for PBXNativeTarget "WebVideoAppTests" */;
+			buildPhases = (
+				D14DB98824ED7B1100BA5040 /* Sources */,
+				D14DB98924ED7B1100BA5040 /* Frameworks */,
+				D14DB98A24ED7B1100BA5040 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D14DB98E24ED7B1100BA5040 /* PBXTargetDependency */,
+			);
+			name = WebVideoAppTests;
+			productName = WebVideoAppTests;
+			productReference = D14DB98C24ED7B1100BA5040 /* WebVideoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D14DB99624ED7B1100BA5040 /* WebVideoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D14DB9A624ED7B1100BA5040 /* Build configuration list for PBXNativeTarget "WebVideoAppUITests" */;
+			buildPhases = (
+				D14DB99324ED7B1100BA5040 /* Sources */,
+				D14DB99424ED7B1100BA5040 /* Frameworks */,
+				D14DB99524ED7B1100BA5040 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D14DB99924ED7B1100BA5040 /* PBXTargetDependency */,
+			);
+			name = WebVideoAppUITests;
+			productName = WebVideoAppUITests;
+			productReference = D14DB99724ED7B1100BA5040 /* WebVideoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D14DB96B24ED7B0D00BA5040 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Justine James Seva Reyes";
+				TargetAttributes = {
+					D14DB97224ED7B0D00BA5040 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					D14DB98B24ED7B1100BA5040 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D14DB97224ED7B0D00BA5040;
+					};
+					D14DB99624ED7B1100BA5040 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D14DB97224ED7B0D00BA5040;
+					};
+				};
+			};
+			buildConfigurationList = D14DB96E24ED7B0D00BA5040 /* Build configuration list for PBXProject "WebVideoApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D14DB96A24ED7B0D00BA5040;
+			productRefGroup = D14DB97424ED7B0D00BA5040 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D14DB97224ED7B0D00BA5040 /* WebVideoApp */,
+				D14DB98B24ED7B1100BA5040 /* WebVideoAppTests */,
+				D14DB99624ED7B1100BA5040 /* WebVideoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D14DB97124ED7B0D00BA5040 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D14DB98624ED7B1100BA5040 /* LaunchScreen.storyboard in Resources */,
+				D14DB98324ED7B1100BA5040 /* Assets.xcassets in Resources */,
+				D14DB97E24ED7B0D00BA5040 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D14DB98A24ED7B1100BA5040 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D14DB99524ED7B1100BA5040 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D14DB96F24ED7B0D00BA5040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D14DB97B24ED7B0D00BA5040 /* ViewController.swift in Sources */,
+				D14DB97724ED7B0D00BA5040 /* AppDelegate.swift in Sources */,
+				D14DB98124ED7B0D00BA5040 /* WebVideoApp.xcdatamodeld in Sources */,
+				D14DB97924ED7B0D00BA5040 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D14DB98824ED7B1100BA5040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D14DB99124ED7B1100BA5040 /* WebVideoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D14DB99324ED7B1100BA5040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D14DB99C24ED7B1100BA5040 /* WebVideoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D14DB98E24ED7B1100BA5040 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D14DB97224ED7B0D00BA5040 /* WebVideoApp */;
+			targetProxy = D14DB98D24ED7B1100BA5040 /* PBXContainerItemProxy */;
+		};
+		D14DB99924ED7B1100BA5040 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D14DB97224ED7B0D00BA5040 /* WebVideoApp */;
+			targetProxy = D14DB99824ED7B1100BA5040 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D14DB97C24ED7B0D00BA5040 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D14DB97D24ED7B0D00BA5040 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D14DB98424ED7B1100BA5040 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D14DB98524ED7B1100BA5040 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D14DB99E24ED7B1100BA5040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D14DB99F24ED7B1100BA5040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D14DB9A124ED7B1100BA5040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WebVideoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Com.WebVideo.WebVideoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D14DB9A224ED7B1100BA5040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WebVideoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Com.WebVideo.WebVideoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D14DB9A424ED7B1100BA5040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WebVideoAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Com.WebVideo.WebVideoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebVideoApp.app/WebVideoApp";
+			};
+			name = Debug;
+		};
+		D14DB9A524ED7B1100BA5040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WebVideoAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Com.WebVideo.WebVideoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebVideoApp.app/WebVideoApp";
+			};
+			name = Release;
+		};
+		D14DB9A724ED7B1100BA5040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WebVideoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Com.WebVideo.WebVideoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WebVideoApp;
+			};
+			name = Debug;
+		};
+		D14DB9A824ED7B1100BA5040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WebVideoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Com.WebVideo.WebVideoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WebVideoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D14DB96E24ED7B0D00BA5040 /* Build configuration list for PBXProject "WebVideoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D14DB99E24ED7B1100BA5040 /* Debug */,
+				D14DB99F24ED7B1100BA5040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D14DB9A024ED7B1100BA5040 /* Build configuration list for PBXNativeTarget "WebVideoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D14DB9A124ED7B1100BA5040 /* Debug */,
+				D14DB9A224ED7B1100BA5040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D14DB9A324ED7B1100BA5040 /* Build configuration list for PBXNativeTarget "WebVideoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D14DB9A424ED7B1100BA5040 /* Debug */,
+				D14DB9A524ED7B1100BA5040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D14DB9A624ED7B1100BA5040 /* Build configuration list for PBXNativeTarget "WebVideoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D14DB9A724ED7B1100BA5040 /* Debug */,
+				D14DB9A824ED7B1100BA5040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D14DB97F24ED7B0D00BA5040 /* WebVideoApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D14DB98024ED7B0D00BA5040 /* WebVideoApp.xcdatamodel */,
+			);
+			currentVersion = D14DB98024ED7B0D00BA5040 /* WebVideoApp.xcdatamodel */;
+			path = WebVideoApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D14DB96B24ED7B0D00BA5040 /* Project object */;
+}
